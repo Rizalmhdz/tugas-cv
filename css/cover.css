@@ -80,8 +80,8 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
-@media (min-width: 57em) {
-  
+
+@media (min-width: 55em) {
   .cover-a{
     height: 500px;
     background-image: url('../resource/beranda cv.png');
