@@ -52,11 +52,11 @@ header{
 }
 .row-kont{
   display: grid;
-  justify-items: center;
   width: 100%;
 }
 .col-kont{
   text-align: center;
+  margin-right: 30px ;
   padding-bottom: 20px;
 }
 
@@ -77,6 +77,16 @@ header{
   margin-bottom: 20px;
   align-items: center;
   font-family: 'Open Sans', sans-serif;
+}
+
+.section-minat{
+  display: grid;
+  background-color: #252526;
+}
+
+.hobi, .minat{
+  margin-top: -10px;
+  margin-bottom: 30px;
 }
 
 hr{
@@ -203,6 +213,6 @@ body {
  * Footer
  */
 .mastfoot {
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, .5);\
     background-color: #535353;
 }

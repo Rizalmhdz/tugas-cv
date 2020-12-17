@@ -80,6 +80,14 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
+@media (min-width: 57em) {
+  
+  .cover-a{
+    height: 500px;
+    background-image: url('../resource/beranda cv.png');
+    background-repeat: no-repeat;
+  }
+}
 
 @media (min-width: 48em) {
   .masthead-brand {
@@ -91,11 +99,6 @@ body {
   header{
     height: 100px;
   }
-  .cover-a{
-    height: 500px;
-    background-image: url('../resource/beranda cv.png');
-    background-repeat: no-repeat;
-  }
   .judul-4{
     text-align: left;
     margin-top: 10px;
@@ -103,7 +106,11 @@ body {
   }
   .col-kont{
     text-align: left;
-    margin-left: 60px;
+    margin-left: 50px;
+  }
+
+  #profile{
+    text-align: center;
   }
 }
 .bd-placeholder-img {
