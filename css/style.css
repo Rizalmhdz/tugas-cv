@@ -1,0 +1,208 @@
+header{
+   
+    height: 50px;
+}
+
+.section-1, .section-3, .section-5{ 
+    /* height: 300px; */
+    display: grid;
+    background-color: #333333;
+}
+
+.kont-org{
+  background-color: #E6E6E6;
+  color: #252526;
+  border-radius: 10px;
+}
+
+.section-4{ 
+  display: grid;
+    background-color: #535353;
+}
+.depan{
+    background-color: #FFD700;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+     background-repeat: no-repeat;
+}
+.cover-a{
+  height: 500px;
+  background-image: url('../resource/beranda cv 2.png');
+  background-repeat: no-repeat;
+}
+
+#profile{
+  display: grid;
+  background-color: #252526;
+}
+
+.judul-4{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.fas{
+  padding: 10px;
+}
+
+.col-pro{
+  text-align: center;
+  padding-bottom: 30px;
+}
+.row-kont{
+  display: grid;
+  justify-items: center;
+  width: 100%;
+}
+.col-kont{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.judul-2{
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  /* display: flex; */
+  align-items: center;
+  /* justify-items: center; */
+  font-family: 'Open Sans', sans-serif;
+}
+
+.judul-3{
+  color: white
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+hr{
+  margin-top: 10px;
+  border-color: white;
+}
+
+.perkenalan{
+  text-align: right;
+  padding-top: 100px;
+}
+
+
+footer{
+    margin-bottom: 0px;
+}
+
+body{
+    width:100%;
+    height: 2000px;
+}
+
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: .75rem 1.25rem;
+  font-weight: 700;
+}
+
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+    background-color: #535353;
+}
